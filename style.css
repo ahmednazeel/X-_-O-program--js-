@@ -1,0 +1,53 @@
+:root{
+    --main-color:rgb(130, 10, 10);
+    --second-color:#222;
+    --text-color:#fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    background-color: var(--second-color);
+}
+.main-content{
+    width: 80%;
+    margin:2% auto;
+    color: var(--text-color);
+}
+.title{
+    font-size: 200%;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing:1px;
+    transform: translate(-50,-50);
+    background-color:rgb(54, 54, 54) ;
+    width: 100%;
+    padding: 0.5%;
+
+}
+.title span{
+    color: var(--main-color);
+    font-size: 120%;
+}
+.game{
+    margin: 5%;
+
+}
+.square{
+    background-color:var(--main-color);
+    float: left;
+    width: 30%;
+    margin: 15px;
+    height: 200px;
+    text-transform: uppercase;
+    font-size: 800%;
+}
+.square:hover{
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
